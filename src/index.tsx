@@ -6,7 +6,7 @@ function getRandomInt(min: number, max: number) {
 }
 
 function getRandomChar() {
-  const rand = getRandomInt(0, 60);
+  const rand = getRandomInt(0, 25);
   return String.fromCharCode(rand + 65);
 }
 
